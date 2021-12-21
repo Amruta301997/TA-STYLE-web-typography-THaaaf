@@ -1,0 +1,310 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Oswald&family=Roboto+Slab:wght@300&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+/*header*/
+
+
+header{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+
+}
+.brand {
+    
+    float:left;
+    padding-left: 20px;
+    padding-top: 7px;
+    color: rgb(37, 7, 37);
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.navbar{
+    float: right;
+    padding-top: 20px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+
+}
+.brand, .navbar{
+    display: inline-block;
+    
+}
+.navbar a{
+    margin-left: 32px;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+.container{
+    margin: 10px;
+    width: 1350px;
+    
+    margin: 0 auto;
+    
+}
+
+.con1{
+    background-color: rgb(34, 10, 34);
+    height: 350px;
+    color: thistle;
+    display: inline-flex;
+    padding: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    
+}
+ h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px rgb(245, 137, 137);
+    
+
+}
+p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+/*.article{
+    font-size: 0;
+    padding: 60px;
+}*/
+.article-img{
+    width: 500px;
+    height: 500px;
+}
+
+.col1-1{
+     width: 50%;
+     display: inline-block;
+    
+     vertical-align: top;
+}
+
+
+.con2{
+    background-color: rgb(255, 253, 255);
+    height: 350px;
+    color: rgb(73, 72, 73);
+    display: inline-flex;
+    padding: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    
+}
+.col2-1{
+    width: 40%;
+    display: inline-block;
+   
+    vertical-align: top;
+}
+.col2-1 img{
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.col2-1 P{
+    line-height: 1.5;
+    font-size: 18px;
+}
+.col2-1 h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px rgb(104, 101, 101);
+}
+
+
+.con3{
+     
+     /*display: flex;*/
+     font-size: 20px;
+     vertical-align: top;
+     padding-left: 10px;
+     justify-content: space-between;
+     margin-bottom: 20px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align:start;
+    color: black;
+    text-transform: capitalize;
+}
+
+.con3 h1{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+.col3-1{
+    display: flex;
+    width: 25%;
+    display: inline-block;
+    padding:50px;
+   
+}
+.col3-1 P{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.con4{
+    background-color: rgb(34, 10, 34);
+
+    color: thistle;
+    display: inline-flex;
+    padding: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    
+}
+.col4-1{
+    width: 50%;
+    display: inline-block;
+   justify-content: space-evenly;
+    vertical-align: top;
+}
+.col4-1 p{
+   font-size: 38px;
+   font-family: 'Roboto Slab', serif;
+   color: white;
+   margin-left: 20px;
+}
+.col4-1 .btn1{
+    float: right;
+    margin-top: 20px;
+}
+
+
+.navbar img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+}
+
+
+
+.con5{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.con5 .brand {
+    
+    float:left;
+    padding-left: 20px;
+    padding-top: 7px;
+    color: rgb(37, 7, 37);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+.con5 .navbar{
+    float: right;
+    padding-top: 20px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+
+}
+.con5 .brand, .navbar{
+    display: inline-block;
+    
+}
+.line{
+    height: 1px;
+    background-color: black;
+    margin: 40px;
+}
+/*.con5{
+    background-color: rgb(34, 10, 34);
+    padding: 10px;
+    margin-bottom: 10px;
+}*/
+
+
+.con6{
+    background-color: rgb(37, 7, 37);
+    margin-top: 30px;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+footer a{
+    color: white;
+    text-align: center;
+}
